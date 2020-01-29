@@ -27,6 +27,7 @@ participant patient identified by pId {
   o String fName
   o String lName
   o String CNIC
+  o Integer[] myRecords
 }
 
 participant doctor identified by dId {
