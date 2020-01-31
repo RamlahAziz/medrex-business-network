@@ -19,7 +19,8 @@ asset healthRecord identified by rId{
   o String rId
   --> patient owner
   --> doctor maker
-  o String pDiag 
+  o String pDiag
+  o String[] trustedDocs
 }
 
 participant patient identified by pId {
@@ -27,7 +28,7 @@ participant patient identified by pId {
   o String fName
   o String lName
   o String CNIC
-  o Integer[] myRecords
+  o healthRecord[] myRecords
 }
 
 participant doctor identified by dId {
@@ -46,4 +47,14 @@ event updateEvent {
   --> healthRecord record
   o String oldDiag
   o String newDiag
+}
+
+transaction giveAccess {
+  --> healthRecord record
+  --> doctor trusted
+}
+
+event giveAccessEvent {
+  --> healthRecord record
+  --> doctor trusted
 }
