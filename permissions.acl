@@ -44,14 +44,6 @@ rule DoctorCanSubmitandReadOwnTransactions {
     action: ALLOW
 }
 
-rule PatientCanPerformGiveAccessTransactions {
-    description: "Allow all patients to give access to doctors through transactions"
-    participant: "org.medrex.basic.patient"
-    operation: CREATE, READ
-    resource: "org.medrex.basic.giveAccess"
-    action: ALLOW
-}
-
 rule EverybodyCanReadTheirOwnData {
     description: "Allow all participants read access to own resources"
     participant(p): "org.hyperledger.composer.system.Participant"
@@ -61,10 +53,10 @@ rule EverybodyCanReadTheirOwnData {
     action: ALLOW
 }
 
-rule PatientOwnerHasAccessToTheirRecords {
-    description: "Allow all participants to read and edit access of their assets"
+rule PatientOwnerHasFullAccessToTheirRecords {
+    description: "Allow all participants read access to their assets"
     participant(p): "org.medrex.basic.patient"
-    operation: READ, UPDATE
+    operation: READ
     resource(r): "org.medrex.basic.healthRecord"
     condition: (r.owner.getIdentifier() === p.getIdentifier())
     action: ALLOW
@@ -75,16 +67,7 @@ rule DoctorsHaveAccessForOwnRecords {
     participant(p): "org.medrex.basic.doctor"
     operation: CREATE, READ, UPDATE
     resource(r): "org.medrex.basic.healthRecord"
-    condition: (r.maker.getIdentifier() === p.getIdentifier()) 
-    action: ALLOW
-}
-
-rule DoctorsGivenAccessToRecordsCanViewAndEditThem {
-  	description: "Allow doctors to view and edit records if granted permission by patient"
-    participant(p): "org.medrex.basic.doctor"
-    operation: READ, UPDATE
-    resource(r): "org.medrex.basic.healthRecord"
-    condition: (r.trustedDocs && r.trustedDocs.indexOf(p.getIdentifier()) > -1)
+    condition: (r.maker.getIdentifier() === p.getIdentifier())
     action: ALLOW
 }
 
