@@ -58,3 +58,13 @@ event giveAccessEvent {
   --> healthRecord record
   --> doctor trusted
 }
+
+transaction revokeAccess {
+  --> healthRecord record
+  --> doctor trusted
+}
+
+event revokeAccessEvent {
+  --> healthRecord record
+  --> doctor trusted
+}
