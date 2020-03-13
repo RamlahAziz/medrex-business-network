@@ -52,6 +52,14 @@ rule PatientCanPerformGiveAccessTransactions {
     action: ALLOW
 }
 
+rule PatientCanPerformRevokeAccessTransactions {
+    description: "Allow all patients to revoke access to doctors through transactions"
+    participant: "org.medrex.basic.patient"
+    operation: CREATE, READ
+    resource: "org.medrex.basic.revokeAccess"
+    action: ALLOW
+}
+
 rule EverybodyCanReadTheirOwnData {
     description: "Allow all participants read access to own resources"
     participant(p): "org.hyperledger.composer.system.Participant"
