@@ -15,10 +15,23 @@
 
 namespace org.medrex.basic
 
-asset healthRecord identified by rId{
-  o String rId
+asset healthRecord identified by mrn{
+  o String mrn // the unique Id which corresponds to a emr
   --> patient owner
   --> doctor maker
+  o String date //date created
+  o String history // pre diagnosis note : patient conditions
+  o String meds  // meds patient is on
+  o String allergies
+  o String shist //social history;
+  o String bt      //body temp
+  o String bp      //blood pressure
+  o String hr      //heart rate
+  o String rr      // respiratory rate
+  o String extra      // notes on skin, heart, lungs
+  o String labs      // past or prescribed tests
+  o String assessment
+  o String plan   // further steps 
   o String pDiag
   o String[] trustedDocs
 }
@@ -27,14 +40,21 @@ participant patient identified by pId {
   o String pId
   o String fName
   o String lName
-  o String CNIC
+  o String sex //sex of patient
+  o String dob //dd/mm/yyyy
+  o String cnic // patient's cnic
+  o String email //valid email address
   o healthRecord[] myRecords
 }
 
 participant doctor identified by dId {
   o String dId
+  o String cnic // the unique Id which corresponds to a registered doctor
   o String fName
   o String lName
+  o String sex //sex of doctor
+  o String dob //dd/mm/yyyy
+  o String email //valid email address
   o String CNIC
 }
 
