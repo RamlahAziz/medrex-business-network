@@ -1,0 +1,54 @@
+[
+    {
+    "$class": "org.medrex.basic.patient",
+    "pId": "1111111111",
+    "fName": "Saqib",
+    "lName": "Arshad",
+    "sex": "Male",
+    "dob": "12/12/1988",
+    "cnic": "7893103748920",
+    "email": "ramlah_a@hotmail.co.uk",
+    "myRecords": []
+  },
+  {
+    "$class": "org.medrex.basic.patient",
+    "pId": "2222222222",
+    "fName": "Maha",
+    "lName": "Nisar",
+    "sex": "Female",
+    "dob": "09/23/1990",
+    "cnic": "8394057382765",
+    "email": "ramlah_a@hotmail.co.uk",
+    "myRecords": []
+  },{
+    "$class": "org.medrex.basic.patient",
+    "pId": "3333333333",
+    "fName": "Azka",
+    "lName": "Batool",
+    "sex": "Female",
+    "dob": "08/23/1991",
+    "cnic": "string",
+    "email": "ramlah_a@hotmail.co.uk",
+    "myRecords": []
+  },{
+    "$class": "org.medrex.basic.patient",
+    "pId": "4444444444",
+    "fName": "Junaid",
+    "lName": "Raheem",
+    "sex": "Male",
+    "dob": "06/07/1993",
+    "cnic": "8593745682019",
+    "email": "ramlah_a@hotmail.co.uk",
+    "myRecords": []
+  },{
+    "$class": "org.medrex.basic.patient",
+    "pId": "5555555555",
+    "fName": "Khalid",
+    "lName": "Bilal",
+    "sex": "Male",
+    "dob": "04/29/1990",
+    "cnic": "string",
+    "email": "ramlah_a@hotmail.co.uk",
+    "myRecords": []
+  }
+]

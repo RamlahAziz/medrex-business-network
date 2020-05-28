@@ -1,0 +1,56 @@
+[{
+    "$class": "org.medrex.basic.doctor",
+    "dId": "1212121212",
+    "cnic": "8908976859432",
+    "fName": "Khalid",
+    "lName": "Khursheed",
+    "sex": "Male",
+    "dob": "03/22/1980",
+    "email": "ramlah_a@hotmail.co.uk",
+    "CNIC": "8908976859432"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "2323232323",
+    "cnic": "5830275302842",
+    "fName": "Armeen",
+    "lName": "Malik",
+    "sex": "Female",
+    "dob": "09/02/1981",
+    "email": "ramlah_a@hotmail.co.uk",
+    "CNIC": "5830275302842"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "3434343434",
+    "cnic": "0174831917394",
+    "fName": "Sikander",
+    "lName": "Suleman",
+    "sex": "Male",
+    "dob": "04/20/1984",
+    "email": "ramlah_a@hotmail.co.uk",
+    "CNIC": "0174831917394"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "4545454545",
+    "cnic": "1074937827419",
+    "fName": "Qasim",
+    "lName": "Ali",
+    "sex": "Male",
+    "dob": "09/04/1979",
+    "email": "ramlah_a@hotmail.co.uk",
+    "CNIC": "1074937827419"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "5656565656",
+    "cnic": "1903746571932",
+    "fName": "Halima",
+    "lName": "Sultan",
+    "sex": "Female",
+    "dob": "03/06/1985",
+    "email": "ramlah_a@hotmail.co.uk",
+    "CNIC": "1903746571932"
+  }
+]
