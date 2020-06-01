@@ -8,6 +8,8 @@
     "dob": "12/12/1988",
     "cnic": "7893103748920",
     "email": "ramlah_a@hotmail.co.uk",
+    "bloodGroup": "B+",
+    "address": "House 564, Street 56, Model Town, Lahore",
     "myRecords": []
   },
   {
@@ -19,6 +21,8 @@
     "dob": "09/23/1990",
     "cnic": "8394057382765",
     "email": "ramlah_a@hotmail.co.uk",
+    "bloodGroup": "B-",
+    "address": "House 324, Street 54, Model Town, Lahore",
     "myRecords": []
   },{
     "$class": "org.medrex.basic.patient",
@@ -29,6 +33,8 @@
     "dob": "08/23/1991",
     "cnic": "string",
     "email": "ramlah_a@hotmail.co.uk",
+    "bloodGroup": "A+",
+    "address": "House 987, Street 65, Korangi Town, Lahore",
     "myRecords": []
   },{
     "$class": "org.medrex.basic.patient",
@@ -39,6 +45,8 @@
     "dob": "06/07/1993",
     "cnic": "8593745682019",
     "email": "ramlah_a@hotmail.co.uk",
+    "bloodGroup": "AB+",
+    "address": "House 9427, Street 655, Korangi Town, Lahore",
     "myRecords": []
   },{
     "$class": "org.medrex.basic.patient",
@@ -49,6 +57,8 @@
     "dob": "04/29/1990",
     "cnic": "string",
     "email": "ramlah_a@hotmail.co.uk",
+    "bloodGroup": "AB-",
+    "address": "House 123, Street 69, Citizens Town, Lahore",
     "myRecords": []
   }
 ]

@@ -16,8 +16,9 @@
     "labs": "n/a",
     "assessment": "influenza, mild fever",
     "plan": "bed rest",
-    "pDiag": "xx",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
@@ -37,8 +38,9 @@
     "labs": "corona test",
     "assessment": "influenza, getting better",
     "plan": "bed rest",
-    "pDiag": "xx",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
@@ -58,8 +60,9 @@
     "labs": "Speed/Uppers (Amphetamine, methamphetamine)",
     "assessment": "Possibly drug overdose, Wide eyes and high blood pressure",
     "plan": "Keep in ward until tests are clear",
-    "pDiag": "xx",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
@@ -79,8 +82,9 @@
     "labs": "CBC test",
     "assessment": "CBC will determine complete blood picture to determine cause ",
     "plan": "Inhaler and ventolyn will help breathing",
-    "pDiag": "Possible RBC drop",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   },{
     "$class": "org.medrex.basic.healthRecord",
     "mrn": "44444545451",
@@ -99,8 +103,9 @@
     "labs": "immunoglobulin E antibodies test",
     "assessment": "Caution to avoid foods with possible allergens",
     "plan": "Soy milk and non dairy foods advised",
-    "pDiag": "xx",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
@@ -120,6 +125,7 @@
     "labs": "n/a",
     "assessment": "Patient is malnutritioned",
     "plan": "Vitamin capsules prescribed",
-    "pDiag": "xx",
-    "trustedDocs": []
+    "type": "OPD",
+    "trustedDocs": [],
+    "requestDocs": []
   }]

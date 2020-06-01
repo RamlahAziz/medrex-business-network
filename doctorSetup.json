@@ -6,8 +6,7 @@
     "lName": "Khursheed",
     "sex": "Male",
     "dob": "03/22/1980",
-    "email": "ramlah_a@hotmail.co.uk",
-    "CNIC": "8908976859432"
+    "email": "ramlah_a@hotmail.co.uk"
   },
   {
     "$class": "org.medrex.basic.doctor",
@@ -17,8 +16,7 @@
     "lName": "Malik",
     "sex": "Female",
     "dob": "09/02/1981",
-    "email": "ramlah_a@hotmail.co.uk",
-    "CNIC": "5830275302842"
+    "email": "ramlah_a@hotmail.co.uk"
   },
   {
     "$class": "org.medrex.basic.doctor",
@@ -28,8 +26,7 @@
     "lName": "Suleman",
     "sex": "Male",
     "dob": "04/20/1984",
-    "email": "ramlah_a@hotmail.co.uk",
-    "CNIC": "0174831917394"
+    "email": "ramlah_a@hotmail.co.uk"
   },
   {
     "$class": "org.medrex.basic.doctor",
@@ -39,8 +36,7 @@
     "lName": "Ali",
     "sex": "Male",
     "dob": "09/04/1979",
-    "email": "ramlah_a@hotmail.co.uk",
-    "CNIC": "1074937827419"
+    "email": "ramlah_a@hotmail.co.uk"
   },
   {
     "$class": "org.medrex.basic.doctor",
@@ -50,7 +46,6 @@
     "lName": "Sultan",
     "sex": "Female",
     "dob": "03/06/1985",
-    "email": "ramlah_a@hotmail.co.uk",
-    "CNIC": "1903746571932"
+    "email": "ramlah_a@hotmail.co.uk"
   }
 ]

@@ -32,8 +32,9 @@ asset healthRecord identified by mrn{
   o String labs      // past or prescribed tests
   o String assessment
   o String plan   // further steps 
-  o String pDiag
+  o String type //OPD,IPD, emergency
   o String[] trustedDocs
+  o String[] requestDocs
 }
 
 participant patient identified by pId {
@@ -44,7 +45,9 @@ participant patient identified by pId {
   o String dob //dd/mm/yyyy
   o String cnic // patient's cnic
   o String email //valid email address
-  o healthRecord[] myRecords
+  o String bloodGroup
+  o String address
+  o String[] myRecords
 }
 
 participant doctor identified by dId {
@@ -55,18 +58,27 @@ participant doctor identified by dId {
   o String sex //sex of doctor
   o String dob //dd/mm/yyyy
   o String email //valid email address
-  o String CNIC
 }
 
 transaction updateRecord {
   --> healthRecord record
-  o String newDiag
+  o String nhistory // pre diagnosis note : patient conditions
+  o String nmeds  // meds patient is on
+  o String nallergies
+  o String nshist //social history;
+  o String nbt      //body temp
+  o String nbp      //blood pressure
+  o String nhr      //heart rate
+  o String nrr      // respiratory rate
+  o String nextra      // notes on skin, heart, lungs
+  o String nlabs      // past or prescribed tests
+  o String nassessment
+  o String nplan   // further steps 
 }
 
 event updateEvent {
   --> healthRecord record
-  o String oldDiag
-  o String newDiag
+  o String oldRecord //json object of old record
 }
 
 transaction giveAccess {
@@ -87,4 +99,14 @@ transaction revokeAccess {
 event revokeAccessEvent {
   --> healthRecord record
   --> doctor trusted
+}
+
+transaction requestAccess {
+  --> healthRecord record
+  --> doctor requestingDoc
+}
+
+event requestAccessEvent {
+  --> healthRecord record
+  --> doctor requestingDoc
 }
