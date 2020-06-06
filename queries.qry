@@ -53,5 +53,6 @@ query getNonVerifiedRecords {
 	description: "Returns non verified emrs if needed"
   	statement:
   		SELECT org.medrex.basic.healthRecord
-  			WHERE (verified == false)
+        WHERE ((owner == _$patientObject) AND (verified == 'false'))
+        
 }
