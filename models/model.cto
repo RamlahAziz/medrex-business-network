@@ -121,5 +121,4 @@ participant stats identified by sid {
 
 transaction updateStats {
 	--> stats statsToUpdate
-    o String whatToUpdate
 }

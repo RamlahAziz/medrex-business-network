@@ -42,3 +42,9 @@ query getAccessRequestsForPatient {
     	SELECT org.medrex.basic.healthRecord
   			WHERE ((owner == _$patientObject) AND (requestDocs CONTAINS ["populated"]))
 }
+
+query getStats {
+	description: "Get the stats object"
+  	statement:
+  		SELECT org.medrex.basic.stats
+}
