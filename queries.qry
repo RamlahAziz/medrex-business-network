@@ -48,3 +48,10 @@ query getStats {
   	statement:
   		SELECT org.medrex.basic.stats
 }
+
+query getNonVerifiedRecords {
+	description: "Returns non verified emrs if needed"
+  	statement:
+  		SELECT org.medrex.basic.healthRecord
+  			WHERE (verified == false)
+}

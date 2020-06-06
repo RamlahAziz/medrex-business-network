@@ -33,6 +33,7 @@ asset healthRecord identified by mrn{
   o String assessment
   o String plan   // further steps 
   o String type //OPD,IPD, emergency
+  o Boolean verified default = false optional
   o String[] trustedDocs
   o String[] requestDocs
 }
@@ -58,6 +59,14 @@ participant doctor identified by dId {
   o String sex //sex of doctor
   o String dob //dd/mm/yyyy
   o String email //valid email address
+}
+
+participant stats identified by sid {
+  o String sid
+  o String doctors
+  o String patients
+  o String emrs
+  o String transactions
 }
 
 transaction updateRecord {
@@ -111,14 +120,10 @@ event requestAccessEvent {
   --> doctor requestingDoc
 }
 
-participant stats identified by sid {
-  o String sid
-  o String doctors
-  o String patients
-  o String emrs
-  o String transactions
-}
-
 transaction updateStats {
 	--> stats statsToUpdate
+}
+  
+transaction verifyRecord {
+	--> healthRecord record
 }
