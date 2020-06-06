@@ -110,3 +110,16 @@ event requestAccessEvent {
   --> healthRecord record
   --> doctor requestingDoc
 }
+
+participant stats identified by sid {
+  o String sid
+  o String doctors
+  o String patients
+  o String emrs
+  o String transactions
+}
+
+transaction updateStats {
+	--> stats statsToUpdate
+    o String whatToUpdate
+}

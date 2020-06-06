@@ -1,0 +1,8 @@
+{
+    "$class": "org.medrex.basic.stats",
+    "sid": "01",
+    "patients": "12",
+    "doctors": "9",
+    "transactions": "45",
+    "emrs": "10"
+}

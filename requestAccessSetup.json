@@ -1,0 +1,30 @@
+[
+    {
+      "$class": "org.medrex.basic.requestAccess",
+      "record": "resource:org.medrex.basic.healthRecord#3479897397932",
+      "requestingDoc": "resource:org.medrex.basic.doctor#3434343434",
+      "transactionId": "",
+      "timestamp": "2020-06-02T12:53:42.563Z"
+    },
+    {
+      "$class": "org.medrex.basic.requestAccess",
+      "record": "resource:org.medrex.basic.healthRecord#3479897397932",
+      "requestingDoc": "resource:org.medrex.basic.doctor#4545454545",
+      "transactionId": "",
+      "timestamp": "2020-06-02T12:53:56.228Z"
+    },
+    {
+      "$class": "org.medrex.basic.requestAccess",
+      "record": "resource:org.medrex.basic.healthRecord#3479897397932",
+      "requestingDoc": "resource:org.medrex.basic.doctor#2323232323",
+      "transactionId": "",
+      "timestamp": "2020-06-02T12:53:20.801Z"
+    },
+    {
+        "$class": "org.medrex.basic.requestAccess",
+        "record": "resource:org.medrex.basic.healthRecord#3479897397932",
+        "requestingDoc": "resource:org.medrex.basic.doctor#1349197901937941",
+        "transactionId": "",
+        "timestamp": "2020-06-02T12:53:20.801Z"
+    }
+  ]

@@ -128,4 +128,119 @@
     "type": "OPD",
     "trustedDocs": [],
     "requestDocs": []
-  }]
+  },
+  {
+    "$class": "org.medrex.basic.healthRecord",
+    "mrn": "3479897397932",
+    "owner": "resource:org.medrex.basic.patient#1154517588222789",
+    "maker": "resource:org.medrex.basic.doctor#2986452694773750",
+    "date": "05/28/2020",
+    "history": "New patient. No medical history in this hospital",
+    "meds": "Anti allergents and inhaler",
+    "allergies": "Fish",
+    "shist": "single",
+    "bt": "36",
+    "bp": "110",
+    "hr": "80",
+    "rr": "17",
+    "extra": "n/a",
+    "labs": "n/a",
+    "assessment": "Patient is malnutritioned",
+    "plan": "Vitamin capsules prescribed",
+    "type": "OPD",
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#3434343434",
+	"resource:org.medrex.basic.doctor#1349197901937941"
+   ],
+    "requestDocs": [
+      "populated",
+      "resource:org.medrex.basic.doctor#4545454545",
+      "resource:org.medrex.basic.doctor#2323232323"
+    ]
+  },
+  {
+    "$class": "org.medrex.basic.healthRecord",
+    "mrn": "7897329879237",
+    "owner": "resource:org.medrex.basic.patient#1154517588222789",
+    "maker": "resource:org.medrex.basic.doctor#1349197901937941",
+    "date": "05/28/2020",
+    "history": "Sensitive stomach",
+    "meds": "Ant allergants",
+    "allergies": "milk and nuts",
+    "shist": "Can show a sever reaction to milk or nuts digested",
+    "bt": "37",
+    "bp": "100",
+    "hr": "70",
+    "rr": "16",
+    "extra": "Possibly egg allergic too",
+    "labs": "immunoglobulin E antibodies test",
+    "assessment": "Caution to avoid foods with possible allergens",
+    "plan": "Soy milk and non dairy foods advised",
+    "type": "OPD",
+    "trustedDocs": [
+	"resource:org.medrex.basic.doctor#2323232323"
+	],
+    "requestDocs": [
+	"populated",
+      	"resource:org.medrex.basic.doctor#2986452694773750"
+     ]
+  },
+  {
+    "$class": "org.medrex.basic.healthRecord",
+    "mrn": "709372097532",
+    "owner": "resource:org.medrex.basic.patient#1321146954941689",
+    "maker": "resource:org.medrex.basic.doctor#2986452694773750",
+    "date": "05/28/2020",
+    "history": "New patient. No medical history in this hospital",
+    "meds": "Anti allergents and inhaler",
+    "allergies": "Fish",
+    "shist": "single",
+    "bt": "36",
+    "bp": "110",
+    "hr": "80",
+    "rr": "17",
+    "extra": "n/a",
+    "labs": "n/a",
+    "assessment": "Patient is malnutritioned",
+    "plan": "Vitamin capsules prescribed",
+    "type": "OPD",
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#3434343434",
+	"resource:org.medrex.basic.doctor#1349197901937941"
+   ],
+    "requestDocs": [
+      "populated",
+      "resource:org.medrex.basic.doctor#4545454545",
+      "resource:org.medrex.basic.doctor#2323232323"
+    ]
+  },
+  {
+    "$class": "org.medrex.basic.healthRecord",
+    "mrn": "46545131872131",
+    "owner": "resource:org.medrex.basic.patient#1321146954941689",
+    "maker": "resource:org.medrex.basic.doctor#1349197901937941",
+    "date": "05/28/2020",
+    "history": "Sensitive stomach",
+    "meds": "Ant allergants",
+    "allergies": "milk and nuts",
+    "shist": "Can show a sever reaction to milk or nuts digested",
+    "bt": "37",
+    "bp": "100",
+    "hr": "70",
+    "rr": "16",
+    "extra": "Possibly egg allergic too",
+    "labs": "immunoglobulin E antibodies test",
+    "assessment": "Caution to avoid foods with possible allergens",
+    "plan": "Soy milk and non dairy foods advised",
+    "type": "OPD",
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#4545454545",
+	"resource:org.medrex.basic.doctor#2323232323"
+	],
+    "requestDocs": [
+	"populated",
+      "resource:org.medrex.basic.doctor#3434343434",
+      	"resource:org.medrex.basic.doctor#2986452694773750"
+     ]
+  }
+]

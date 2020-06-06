@@ -60,5 +60,31 @@
     "bloodGroup": "AB-",
     "address": "House 123, Street 69, Citizens Town, Lahore",
     "myRecords": []
+  },
+  {
+    "$class": "org.medrex.basic.patient",
+    "pId": "1154517588222789",
+    "fName": "Syed Afeef",
+    "lName": "Rehman",
+    "sex": "male",
+    "dob": "2005-07-20T11:21:00.000Z",
+    "cnic": "12345678901234",
+    "email": "afeef20rehman@gmail.com",
+    "bloodGroup": "B-",
+    "address": "B180 House",
+    "myRecords": []
+  },
+  {
+  "$class": "org.medrex.basic.patient",
+  "pId": "1321146954941689",
+  "fName": "Saliha",
+  "lName": "Mira",
+  "sex": "female",
+  "dob": "2006-06-05T17:09:17.859Z",
+  "cnic": "53653573342",
+  "email": "ramlah_a@hotmail.co.uk",
+  "bloodGroup": "A-",
+  "address": "Kayi Tribe, Aleppo",
+  "myRecords": []
   }
 ]

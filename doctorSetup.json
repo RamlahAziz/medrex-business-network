@@ -47,5 +47,25 @@
     "sex": "Female",
     "dob": "03/06/1985",
     "email": "ramlah_a@hotmail.co.uk"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "2986452694773750",
+    "cnic": "1234567890",
+    "fName": "Zeyad",
+    "lName": "Ahmed",
+    "sex": "male",
+    "dob": "1997-05-25T11:14:00.000Z",
+    "email": "zeylmnop97@gmail.com"
+  },
+  {
+    "$class": "org.medrex.basic.doctor",
+    "dId": "1349197901937941",
+    "cnic": "78676070970",
+    "fName": "Ramlah",
+    "lName": "Aziz",
+    "sex": "female",
+    "dob": "2020-06-02T13:28:43.331Z",
+    "email": "ramlah_a@hotmail.co.uk"
   }
 ]
