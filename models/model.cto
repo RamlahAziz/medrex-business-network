@@ -48,6 +48,7 @@ participant patient identified by pId {
   o String email //valid email address
   o String bloodGroup
   o String address
+  o String photoLink default = "absent" optional
   o String[] myRecords
 }
 
@@ -59,6 +60,7 @@ participant doctor identified by dId {
   o String sex //sex of doctor
   o String dob //dd/mm/yyyy
   o String email //valid email address
+  o String photoLink default = "absent" optional
 }
 
 participant stats identified by sid {
