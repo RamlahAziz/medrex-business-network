@@ -1,9 +1,9 @@
 [{
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "11111212121",
-    "owner": "resource:org.medrex.basic.patient#1111111111",
-    "maker": "resource:org.medrex.basic.doctor#1212121212",
-    "date": "05/28/2020",
+    "mrn": "28937840283892",
+    "owner": "resource:org.medrex.basic.patient#1321146954941689",
+    "maker": "resource:org.medrex.basic.doctor#0987384758298374",
+    "date": "05/28/2018",
     "history": "clean",
     "meds": "panadol",
     "allergies": "dust",
@@ -17,15 +17,21 @@
     "assessment": "influenza, mild fever",
     "plan": "bed rest",
     "type": "OPD",
-    "trustedDocs": [],
-    "requestDocs": []
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#1384990278374852"
+    ],
+    "requestDocs": [
+      "populated",
+      "resource:org.medrex.basic.doctor#2083759274839201",
+      "resource:org.medrex.basic.doctor#1349197901937941"
+    ]
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "11111212122",
-    "owner": "resource:org.medrex.basic.patient#1111111111",
-    "maker": "resource:org.medrex.basic.doctor#1212121212",
-    "date": "05/28/2020",
+    "mrn": "28738647598732",
+    "owner": "resource:org.medrex.basic.patient#1321146954941689",
+    "maker": "resource:org.medrex.basic.doctor#0987384758298374",
+    "date": "05/28/2000",
     "history": "fever",
     "meds": "panadol",
     "allergies": "dust",
@@ -39,15 +45,20 @@
     "assessment": "influenza, getting better",
     "plan": "bed rest",
     "type": "OPD",
-    "trustedDocs": [],
-    "requestDocs": []
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#1384990278374852"
+    ],
+    "requestDocs": [
+      "populated",
+      "resource:org.medrex.basic.doctor#2083759274839201"
+    ]
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "22222323231",
-    "owner": "resource:org.medrex.basic.patient#2222222222",
-    "maker": "resource:org.medrex.basic.doctor#2323232323",
-    "date": "05/28/2020",
+    "mrn": "23849208276893",
+    "owner": "resource:org.medrex.basic.patient#1321146954941689",
+    "maker": "resource:org.medrex.basic.doctor#1384990278374852",
+    "date": "05/25/2020",
     "history": "drug abuse",
     "meds": "anti depressants",
     "allergies": "pollen",
@@ -61,16 +72,19 @@
     "assessment": "Possibly drug overdose, Wide eyes and high blood pressure",
     "plan": "Keep in ward until tests are clear",
     "type": "OPD",
-    "trustedDocs": [],
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#2986452694773750",
+      "resource:org.medrex.basic.doctor#1349197901937941"
+    ],
     "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "33333434341",
-    "owner": "resource:org.medrex.basic.patient#3333333333",
-    "maker": "resource:org.medrex.basic.doctor#3434343434",
-    "date": "05/28/2020",
-    "history": "breathhing difficulties",
+    "mrn": "10928398492838",
+    "owner": "resource:org.medrex.basic.patient#1154517588222789",
+    "maker": "resource:org.medrex.basic.doctor#5987359321234875",
+    "date": "04/28/2020",
+    "history": "breathing difficulties",
     "meds": "Inhaler",
     "allergies": "hay fever",
     "shist": "Anxiety and social distancing",
@@ -78,19 +92,22 @@
     "bp": "90",
     "hr": "65",
     "rr": "15",
-    "extra": "More difficulty breathin",
+    "extra": "More difficulty breathing",
     "labs": "CBC test",
     "assessment": "CBC will determine complete blood picture to determine cause ",
     "plan": "Inhaler and ventolyn will help breathing",
     "type": "OPD",
-    "trustedDocs": [],
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#2986452694773750",
+      "resource:org.medrex.basic.doctor#1349197901937941"
+    ],
     "requestDocs": []
   },{
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "44444545451",
-    "owner": "resource:org.medrex.basic.patient#4444444444",
-    "maker": "resource:org.medrex.basic.doctor#4545454545",
-    "date": "05/28/2020",
+    "mrn": "10982983948390",
+    "owner": "resource:org.medrex.basic.patient#1154517588222789",
+    "maker": "resource:org.medrex.basic.doctor#2083759274839201",
+    "date": "01/28/2020",
     "history": "Sensitive stomach",
     "meds": "Ant allergants",
     "allergies": "milk and nuts",
@@ -104,15 +121,17 @@
     "assessment": "Caution to avoid foods with possible allergens",
     "plan": "Soy milk and non dairy foods advised",
     "type": "OPD",
-    "trustedDocs": [],
+    "trustedDocs": [
+      "resource:org.medrex.basic.doctor#2986452694773750"
+    ],
     "requestDocs": []
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "55555656561",
-    "owner": "resource:org.medrex.basic.patient#5555555555",
-    "maker": "resource:org.medrex.basic.doctor#5656565656",
-    "date": "05/28/2020",
+    "mrn": "89374893028493",
+    "owner": "resource:org.medrex.basic.patient#1154517588222789",
+    "maker": "resource:org.medrex.basic.doctor#9807479302841345",
+    "date": "01/28/2017",
     "history": "New patient. No medical history in this hospital",
     "meds": "Anti allergents and inhaler",
     "allergies": "Fish",
@@ -131,10 +150,10 @@
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "3479897397932",
+    "mrn": "34798973979321",
     "owner": "resource:org.medrex.basic.patient#1154517588222789",
     "maker": "resource:org.medrex.basic.doctor#2986452694773750",
-    "date": "05/28/2020",
+    "date": "03/28/2014",
     "history": "New patient. No medical history in this hospital",
     "meds": "Anti allergents and inhaler",
     "allergies": "Fish",
@@ -149,21 +168,21 @@
     "plan": "Vitamin capsules prescribed",
     "type": "OPD",
     "trustedDocs": [
-      "resource:org.medrex.basic.doctor#3434343434",
-	"resource:org.medrex.basic.doctor#1349197901937941"
+      "resource:org.medrex.basic.doctor#5987359321234875"
    ],
     "requestDocs": [
       "populated",
-      "resource:org.medrex.basic.doctor#4545454545",
-      "resource:org.medrex.basic.doctor#2323232323"
+      "resource:org.medrex.basic.doctor#2083759274839201",
+      "resource:org.medrex.basic.doctor#1384990278374852",
+      "resource:org.medrex.basic.doctor#1349197901937941"
     ]
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "7897329879237",
+    "mrn": "87394859218374",
     "owner": "resource:org.medrex.basic.patient#1154517588222789",
     "maker": "resource:org.medrex.basic.doctor#1349197901937941",
-    "date": "05/28/2020",
+    "date": "01/24/2013",
     "history": "Sensitive stomach",
     "meds": "Ant allergants",
     "allergies": "milk and nuts",
@@ -178,19 +197,19 @@
     "plan": "Soy milk and non dairy foods advised",
     "type": "OPD",
     "trustedDocs": [
-	"resource:org.medrex.basic.doctor#2323232323"
-	],
+	    "resource:org.medrex.basic.doctor#1384990278374852"
+	  ],
     "requestDocs": [
-	"populated",
-      	"resource:org.medrex.basic.doctor#2986452694773750"
+	    "populated",
+    	"resource:org.medrex.basic.doctor#2986452694773750"
      ]
   },
   {
     "$class": "org.medrex.basic.healthRecord",
-    "mrn": "709372097532",
+    "mrn": "70937209753232",
     "owner": "resource:org.medrex.basic.patient#1321146954941689",
     "maker": "resource:org.medrex.basic.doctor#2986452694773750",
-    "date": "05/28/2020",
+    "date": "01/21/2010",
     "history": "New patient. No medical history in this hospital",
     "meds": "Anti allergents and inhaler",
     "allergies": "Fish",
@@ -205,13 +224,13 @@
     "plan": "Vitamin capsules prescribed",
     "type": "OPD",
     "trustedDocs": [
-      "resource:org.medrex.basic.doctor#3434343434",
-	"resource:org.medrex.basic.doctor#1349197901937941"
+      "resource:org.medrex.basic.doctor#5987359321234875"
    ],
     "requestDocs": [
       "populated",
-      "resource:org.medrex.basic.doctor#4545454545",
-      "resource:org.medrex.basic.doctor#2323232323"
+      "resource:org.medrex.basic.doctor#2083759274839201",
+      "resource:org.medrex.basic.doctor#1384990278374852",
+      "resource:org.medrex.basic.doctor#1349197901937941"
     ]
   },
   {
@@ -219,7 +238,7 @@
     "mrn": "46545131872131",
     "owner": "resource:org.medrex.basic.patient#1321146954941689",
     "maker": "resource:org.medrex.basic.doctor#1349197901937941",
-    "date": "05/28/2020",
+    "date": "05/12/2013",
     "history": "Sensitive stomach",
     "meds": "Ant allergants",
     "allergies": "milk and nuts",
@@ -234,13 +253,13 @@
     "plan": "Soy milk and non dairy foods advised",
     "type": "OPD",
     "trustedDocs": [
-      "resource:org.medrex.basic.doctor#4545454545",
-	"resource:org.medrex.basic.doctor#2323232323"
+      "resource:org.medrex.basic.doctor#2083759274839201",
+	    "resource:org.medrex.basic.doctor#1384990278374852"
 	],
     "requestDocs": [
-	"populated",
-      "resource:org.medrex.basic.doctor#3434343434",
-      	"resource:org.medrex.basic.doctor#2986452694773750"
+	    "populated",
+      "resource:org.medrex.basic.doctor#5987359321234875",
+      "resource:org.medrex.basic.doctor#2986452694773750"
      ]
   }
 ]

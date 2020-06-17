@@ -3,7 +3,7 @@
     "composer": "^0.20.9"
   },
   "name": "medrex-business-network",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "blockchain network for medrex on composer",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/medrex-business-network.bna",
